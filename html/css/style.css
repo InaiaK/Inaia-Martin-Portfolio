@@ -33,6 +33,40 @@ body{
     padding-left: 30rem;
 }
 
+body .active{
+    --black:#fff;
+    --light-color:#ddd;
+    --bg-color:#222;
+    --border:.1rem solid rgba(0,0,0,.2);
+    --box-shadow:.4rem .4rem 1rem #111,
+                  -.4rem .4rem 1rem #333;
+    --box-shadow-inset:.4rem .4rem 1rem #111 inset,
+                 -.4rem .4rem 1rem #333 inset;
+
+}
+
+section{
+    min-height: 100vh ;
+    padding:2rem;
+}
+
+.btn{
+    margin-top: 1rem;
+    display:inline-block;
+    padding:1rem 3.5rem;
+    border-right: .5rem;
+    font-size: 1.7rem;
+    cursor:pointer;
+    background: none;
+    color:var(--black);
+    box-shadow: var(--box-shadow);
+}
+
+.btn:hover{
+    box-shadow: var(--box-shadow-inset);
+    color:var(--pink);
+}
+
 .header{
     position: fixed;
     top:0; left:0;
@@ -74,9 +108,9 @@ body{
     margin:1.5rem 0;
     padding: .7rem;
     border-radius: 5rem;
-font-size: 2rem;
-box-shadow: var(--box-shadow);
-color:var(--black);
+    font-size: 2rem;
+    box-shadow: var(--box-shadow);
+    color:var(--black);
 }
 
 .header .navbar a:hover{
@@ -104,11 +138,72 @@ color:var(--black);
     box-shadow: var(--box-shadow-inset);
 }
 
+#theme-toggler{
+    position: fixed;
+    top:1.5rem; right: 2rem;
+    z-index: 1000;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    color: var(--black);   
+}
 
 
+#theme-toggler:hover{
+    color:var(--pink);
+    box-shadow: var(--box-shadow-inset);
+}
+
+.home{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home .content h3{
+    font-size: 7rem;
+    color:var(--black);
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.home .content p{
+    font-size: 2rem;
+    color:var(--pink);
+    padding-bottom: .5rem;
+}
 
 
+.home .share{
+    position: relative;
+    top:10rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+}
 
+.home .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    box-shadow: var(--box-shadow);
+    margin:.5rem;
+    font-size: 2rem;
+    color:var(--black);
+    border-radius: .5rem;
+}
+
+.home .share a:hover{
+    box-shadow: var(--box-shadow);
+    color:var(--pink);
+}
 
 
 
@@ -135,24 +230,21 @@ color:var(--black);
     .header{
         left: -110%;
     }
-    .header .active{
+    .header.active{
         left:0%;
-        transition: .4s linear;
+        transition:.4s linear;
     }
-
     #menu-btn{
-        display: initial;
+        display:initial;
     }    
 }
 
 @media (max-width:450px){
-
     html{
         font-size: 50% ;
     }
     .header{
         width: 100%;
         border-right: 0;
-
     }
 }
