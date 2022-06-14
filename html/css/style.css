@@ -33,11 +33,11 @@ body{
     padding-left: 30rem;
 }
 
-body .active{
+body.active{
     --black:#fff;
     --light-color:#ddd;
     --bg-color:#222;
-    --border:.1rem solid rgba(0,0,0,.2);
+    --border:.1rem solid rgba(0,0,0,.4);
     --box-shadow:.4rem .4rem 1rem #111,
                   -.4rem .4rem 1rem #333;
     --box-shadow-inset:.4rem .4rem 1rem #111 inset,
@@ -278,7 +278,7 @@ box-shadow: var(--box-shadow);
   .portifolio .box-container{
       display:grid;
       grid-template-columns: repeat(auto-fit,minmax(27rem,1fr));
-      gap:2rem;
+      gap: 2rem;
   }
 
   .portifolio .box-container .box{
@@ -312,7 +312,7 @@ transform: scale(0);
 }
 
 .portifolio .box-container .box .content .h3{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:var(--black);
     text-transform: uppercase;
     transform: translateY(-5rem);
