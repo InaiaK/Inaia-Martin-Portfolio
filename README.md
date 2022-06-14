@@ -1,2 +1,4 @@
 # MyPortifolio
-Portifolio 
+I'm Inaia Martin a fullstack devepoler.
+
+
