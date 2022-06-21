@@ -312,7 +312,7 @@ transform: scale(0);
 }
 
 .portifolio .box-container .box .content .h3{
-    font-size: 3rem;
+    font-size: 5rem;
     color:var(--black);
     text-transform: uppercase;
     transform: translateY(-5rem);
