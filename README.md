@@ -1,4 +1,4 @@
-# MyPortifolio
+# Inaia Martin Portfolio
 
 I Am A Full Stack Student At University Of Denver. 
 I Am Trilingual Professional ( Portuguese, English And Spanish) With Background And Experience In Hospitality/Tourism Industry.
