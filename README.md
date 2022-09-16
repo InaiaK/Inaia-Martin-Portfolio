@@ -6,7 +6,7 @@ I Am Trilingual Professional ( Portuguese, English And Spanish) With Background 
 
 
 # Link
-https://inaiak.github.io/MyPortifolio/#home
+https://github.com/InaiaK/Inaia-Martin-Portfolio
 
 # Image
 <img src="https://github.com/InaiaK/MyPortifolio/blob/main/images/2022-06-19.png">
