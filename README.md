@@ -15,6 +15,5 @@ https://inaiak.github.io/Inaia-Martin-Portfolio/
 - JavaScript
 
 ### Questions:
-If you have any questions contact me on [GitHub](https://github.com/inaia@gmail.com) or contact Inaia , inaia5martin@gmail.com.
-
+ :octocat: [InaiaK](https://github.com/inaia@gmail.com) | 📫[InaiaMartin](https://www.linkedin.com/in/inai%C3%A1-martin100000/) | :email: inaiakenia15@gmail.com
 
